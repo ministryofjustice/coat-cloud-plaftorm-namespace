@@ -23,7 +23,7 @@ module "namespace" {
   source_code    = "https://github.com/ministryofjustice/operations-engineering-join-github"
 }
 ```
-```
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -71,4 +71,3 @@ No modules.
 | <a name="output_ecr_repo_url"></a> [ecr\_repo\_url](#output\_ecr\_repo\_url) | n/a |
 | <a name="output_namespace_name"></a> [namespace\_name](#output\_namespace\_name) | n/a |
 <!-- END_TF_DOCS -->
-```
