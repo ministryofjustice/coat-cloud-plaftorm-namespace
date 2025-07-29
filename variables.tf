@@ -22,7 +22,7 @@ variable "business_unit" {
 variable "slack_channel" {
   description = "Slack channel for notifications"
   type        = string
-  default     = "#cloud-platform"
+  default     = "#cloud-optimisation-and-accountability-team"
 }
 
 variable "application" {
@@ -33,7 +33,7 @@ variable "application" {
 variable "owner" {
   description = "Email or contact info of the application owner"
   type        = string
-  default     = "cloud-platform@digital.justice.gov.uk"
+  default     = "CloudOptimisationAccoutabilityTeam@JusticeUK.onmicrosoft.com"
 }
 
 variable "source_code" {
@@ -44,11 +44,11 @@ variable "source_code" {
 variable "team_name" {
   description = "Development team responsible for the service"
   type        = string
-  default     = "Cloud Platform"
+  default     = "Cloud Optimisation and Accountability"
 }
 
 variable "rbac_group" {
   description = "Group name for RBAC role bindings"
   type        = string
-  default     = "github:cloud-platform"
+  default     = "github:cloud-optimisation-and-accountability"
 }
